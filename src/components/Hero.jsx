@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 
-
+import hero3 from "/images/hero3.jpg";
 
 export default function Hero(){
   return (
@@ -13,7 +13,8 @@ export default function Hero(){
 
       <div className="hero-inner">
         <motion.img
-          src="/JaganPortfolio/images/hero3.jpg" 
+          // src="/JaganPortfolio/images/hero3.jpg" 
+          src={hero3}
           alt="Jagan"
           className="hero-photo"
           initial={{ scale: 0.8, opacity: 0 }}

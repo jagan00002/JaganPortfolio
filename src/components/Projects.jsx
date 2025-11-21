@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
+import project1 from "/images/project1.jpg";
+
 export default function Projects() {
   const [flippedIndex, setFlippedIndex] = useState(null);
 
@@ -8,7 +10,8 @@ export default function Projects() {
     {
       title: "Wonderlust",
       domain: "FullStack Development",
-      image: "/JaganPortfolio/images/project1.jpg" , 
+      // image: "/JaganPortfolio/images/project1.jpg" , 
+      image: project1,
       back: {
         Description: "Developed Wanderlust, a dynamic website enabling users to host listings and receive ratings and reviews. Integrated mapping functionality to provide location services seamlessly.",
         TechStack: "HTML, CSS, Javascript, Node.js, Express, MongoDB",
@@ -19,7 +22,8 @@ export default function Projects() {
     {
       title: "Simon Says Game",
       domain: "Front-End Development",
-      image: "/JaganPortfolio/images/project2.jpg",
+      // image: "/JaganPortfolio/images/project2.jpg",
+      image: project1,
       back: {
         Description: "A fun and interactive memory-based color sequence game. The game generates a random color pattern that the user must repeat in the correct order to advance to the next level. Each level increases in difficulty as the sequence grows longer.",
         TechStack: "HTML, CSS, Javascript",
